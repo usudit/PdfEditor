@@ -1,0 +1,21 @@
+{
+  "Customer_Registration.pdf": {
+    "fullNme11": "John Doe",
+    "address12": "123 Main Street",
+    "phoneNumber14": "555-1234",
+    "willYou6": "Yes"
+  },
+  "Hotel_Booking.pdf": {
+    "text_1fgrr": "Alice Johnson",
+    "radio_group_7yvkz": "Single room AC",
+    "text_9uwfl": "2025-01-12",
+    "checkbox_11ikmx": "Yes" ,
+    "checkbox_12ssd": "No"
+  },
+  "Student_Registration.pdf": {
+    "text_1fgrr": "Emily Smith",
+    "text_2ioiz": "16",
+    "radio_group_7yvkz": "Female",
+    "text_9uwfl": "Michael Smith"
+  }
+}
