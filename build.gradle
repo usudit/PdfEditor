@@ -25,6 +25,10 @@ dependencies {
 	// https://mvnrepository.com/artifact/com.itextpdf/itextpdf
 	implementation group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13.4'
 	//implementation 'com.itextpdf: itextpdf :5.5.13.4'
+	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind'
+
+	//mongo db dependency
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb'
 	
 }
 
