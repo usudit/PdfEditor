@@ -1,0 +1,28 @@
+Hackathon-Citi-MongoDB-DBconfigSteps
+
+cd to C:\Program Files\MongoDB\Server\3.2\bin>
+C:\Program Files\MongoDB\Server\8.0\bin
+enter command mongod
+by default, mongodb server will start at port 27017
+
+
+Start MongoDB locally or via a service like MongoDB Atlas.
+Database name: pdfEditorDb
+Collection name: pdfFields
+
+
+mongod --dbpath <path-to-your-data-directory>
+Replace <path-to-your-data-directory> with the path where you want MongoDB to store its data.
+
+
+mongod --dbpath C:\Users\usudi\Downloads\Hackathon-Citi\MongoOutput
+
+After momgo db install
+
+Add to PATH:
+
+Press Win + R, type sysdm.cpl, and press Enter.
+Go to the Advanced tab and click Environment Variables.
+Under System Variables, find Path, select it, and click Edit.
+Click New, and add the full path to MongoDB's bin directory (e.g., C:\Program Files\MongoDB\Server\6.0\bin).
+Click OK to save
